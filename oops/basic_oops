@@ -1,0 +1,22 @@
+class account:
+  def __init__(self,account_no,balance):
+    self.account_no = account_no
+    self.balance = balance
+
+  def credit(self,amount):
+    self.balance= self.balance + amount
+
+  def debit(self,amount):
+    self.balance = self.balance - amount
+
+  def get_balance(self):
+    return self.balance
+
+ac1 = account(123,20)
+ac1.credit(20)
+ac1.debit(40)
+print(ac1.get_balance())
+
+ac2= account(143,34)
+ac2.credit(10)
+print(ac2.get_balance())

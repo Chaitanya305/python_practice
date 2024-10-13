@@ -1,0 +1,3 @@
+This is demo contain from my one.txt
+this is exersie
+this is my displayed thorugh django
